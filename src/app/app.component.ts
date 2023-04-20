@@ -24,7 +24,7 @@ export class AppComponent {
     { id: '9', name: 'Cappuccino', price: 2.5 },
     { id: '10', name: 'Espresso', price: 1 },
     { id: '11', name: 'Kuchen', price: 1.5 },
-    { id: '12', name: 'Muffines', price: 1 },
+    { id: '12', name: 'Muffins', price: 1 },
     { id: '13', name: 'Amerikaner', price: 1 },
     { id: '14', name: 'Flachswickel', price: 1 },
   ];

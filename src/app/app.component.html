@@ -8,8 +8,10 @@
   <ul class="items-list">
     <li class="items-list-item" *ngFor="let item of items">
       <div class="items-list-item-name">{{ item.name }} ({{item.price.toFixed(2)}} €)</div>
-      <button type="button" (click)="onRemove(item)">➖</button>
-      <button type="button" (click)="onAdd(item)">➕</button>
+      <div class="items-list-item-btns">
+        <button type="button" (click)="onRemove(item)">➖</button>
+        <button type="button" (click)="onAdd(item)">➕</button>
+      </div>
     </li>
   </ul>
 </main>

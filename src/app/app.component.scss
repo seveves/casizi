@@ -34,34 +34,36 @@ main {
     
     &-item {
       display: flex;
-      justify-content: space-between;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
       padding: 8px;
       padding-top: 16px;
       padding-bottom: 16px;
       border-radius: 8px;
-      align-items: center;
       background-color: lightgrey;
       margin-bottom: 16px;
 
       &-name {
+        text-align: center;
         font-weight: bold;
-        font-size: 22pt;
-        width: 60%;
-        padding-left: 16px;
+        font-size: 18pt;
       }
 
-      button {
-        flex: 1;
-        height: 48px;
-        margin-right: 16px;
-        font-size: 16pt;
+      &-btns {
+        padding-top: 8px;
+        button {
+          height: 48px;
+          margin-right: 16px;
+          font-size: 16pt;
+        }
       }
     }
   }
 }
 
 footer {
-  padding-top: 90px;
+  padding-top: 48px;
   width: 90%;
   margin: auto;
   margin-bottom: 90px;
