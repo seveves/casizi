@@ -20,6 +20,11 @@ header {
   button {
     width: 80px;
     height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
     text-align: center;
     font-size: 32pt;
   }
